@@ -1,0 +1,19 @@
+{
+  "name": "flight",
+  "version": "1.0.0",
+  "description": "a module for keeping track of flights",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/utvol/nodeJS_practice.git"
+  },
+  "author": "nick bouldien <nick.bouldien@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/utvol/nodeJS_practice/issues"
+  },
+  "homepage": "https://github.com/utvol/nodeJS_practice#readme"
+}
