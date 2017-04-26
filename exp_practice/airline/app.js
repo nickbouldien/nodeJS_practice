@@ -35,7 +35,7 @@ if ('development' == app.get('env')) {
 app.get('/flight/:number', routes.flight);
 app.put('/flight/:number/arrived', routes.arrived);
 //app.get('/flight2', routes.flight2);
-
+app.get('/list', routes.list);
 //app.get('/users', user.list);
 
 http.createServer(app).listen(app.get('port'), function(){

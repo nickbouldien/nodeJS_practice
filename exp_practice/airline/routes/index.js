@@ -45,6 +45,9 @@ exports.arrived = function(req, res){
   }
 };
 
+exports.list = function(req, res){
+  res.render('list', {title: 'All Flights', flights: flights});
+};
 // exports.flight1 = function(req, res){
 //   res.json(flight1.getInformation());
 // };
